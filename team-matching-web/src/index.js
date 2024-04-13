@@ -22,7 +22,7 @@ import ProtectedRoute from './pages/ProtectedRoute';
 
 const router = createBrowserRouter([
   {
-    part: '/',
+    path: '/',
     element: <App />,
     errorElement: <NotFound />,
     children: [
